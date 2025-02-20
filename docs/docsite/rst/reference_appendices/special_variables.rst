@@ -93,6 +93,9 @@ These variables cannot be set directly by the user; Ansible will always override
     ansible_version
        Dictionary/map that contains information about the current running version of ansible, it has the following keys: full, major, minor, revision and string.
 
+    environment
+        A reserved variable for purposes outside the playbook.
+
     group_names
         List of groups the current host is part of, it always reflects the ``inventory_hostname`` and ignores delegation.
 
